@@ -1,7 +1,6 @@
 # Hangman
 
-**TODO: Add description**
-
+learning elixir by building basic hangman console application
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
