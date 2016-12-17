@@ -1,5 +1,5 @@
 defmodule Hangman do
-        def init do
+    def init do
         Agent.start_link(fn-> %{} end, name: Game)
         Agent.start_link(fn-> %{} end, name: GG)
         get_word
@@ -78,8 +78,8 @@ defmodule Hangman do
     def ret do
         List.to_string(g_g)
     end
+    #buggy -> need to fix
     def display_results(word, duration)do
-        IO.puts "?"
           cond do 
             String.length(ret) == String.length(word) ->
                 "You win...The word was " <> word
